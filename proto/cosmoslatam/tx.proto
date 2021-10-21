@@ -1,0 +1,13 @@
+syntax = "proto3";
+package danielfarina.cosmoslatam.cosmoslatam;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "github.com/daniel-farina/cosmos-latam/x/cosmoslatam/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
